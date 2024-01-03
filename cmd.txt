@@ -1,0 +1,2 @@
+select t.*, t.rowid from dms.m_sec_punch_photo t where  to_date(t.curr_date)=to_date(sysdate);
+select t.*, t.rowid from m_sec_daily_attend t where  to_date(t.current_dt)=to_date(sysdate);
